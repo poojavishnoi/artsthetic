@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+/*Styling for NavBar Component */
+.nav {
+  height: 9vh;
+}
+.nav-wrapper {
+  position: sticky;
+  z-index: 9999;
+}
+.nav-wrapper a {
+  color: black !important;
+  font-family: "Cinzel", serif;
+  font-size: 37px;
+}
+
+.material-icons {
+  max-width: 37px;
+  height: auto;
+  float: right;
+}
+.material-icons-left {
+  max-width: 55px;
+  height: auto;
+  float: right;
+}
+.right {
+  margin: 0;
+  top: 1.5vh;
+  right: 0px;
+  margin: 0;
+  position: absolute;
+  height: 7vh;
+}
+.brand-logo {
+  max-width: 64px !important;
+  height: 55px;
+  top: 3px;
+  left: 2px;
+}
+
+.brand-logo img {
+  margin: 0;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.profile-dropdown {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  top: 60px;
+  left: 1px;
+}
+.content a {
+  color: black;
+  padding: 1px 19px;
+  text-decoration: none;
+  display: block;
+  font-size: 19px;
+}
+.profile-dropdown :hover .content {
+  display: block;
+}
+.content a:hover {
+  background-color: #ddd;
+}
+.brand-logo:hover {
+  background-color: #1d1d1d3a;
+}
+
+.search-container {
+  width: 15vw !important;
+  position: relative !important;
+  right: 4vw !important;
+  top: -6vh !important;
+  display: none;
+}
+.search-icon {
+  position: relative;
+  /* left: 0.8vw;*/
+  top: 0.4vh;
+}
+.right:hover .search-container {
+  display: block;
+}

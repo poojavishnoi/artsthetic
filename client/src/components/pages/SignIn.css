@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+.background-container {
+  position: absolute;
+  background-image: url(https://i.ibb.co/fd1ZZ8p/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.art-heading {
+  font-family: "Cinzel", serif;
+  color: white;
+  margin: 10px;
+  font-size: 12.7vh;
+  text-align: center;
+  position: absolute;
+  top: 19px;
+}
+
+::selection {
+  background: #fa4299;
+  color: #fff;
+}
+.wrapper {
+  overflow: hidden;
+  max-width: 390px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgb(0 0 0 / 10%);
+  margin: 0;
+  width: 352px;
+  height: 469px;
+  position: relative;
+  top: 37px;
+}
+.wrapper .title-text {
+  display: flex;
+  width: 200%;
+}
+.wrapper .title {
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-family: "Playfair Display", serif;
+}
+.form-inner form .field {
+  height: 50px;
+  width: 99%;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+.form-inner form .field input {
+  height: 100%;
+  width: 94%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 211, 211);
+  border-bottom-width: 2px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  font-family: "Playfair Display", serif;
+}
+.form-inner form .field input:focus {
+  border-color: #f16baa;
+
+  box-shadow: inset 0 0 3px #fb6aae;
+}
+.form-inner form .field input::placeholder {
+  color: #999;
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder {
+  color: #868686;
+}
+.form-inner form .pass-link {
+  margin-top: 5px;
+}
+.form-inner form .signup-link {
+  text-align: center;
+  margin-top: 30px;
+}
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+  color: #fa4299;
+  text-decoration: none;
+}
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+  text-decoration: underline;
+}
+form .btn {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .btn-layer {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(
+    right,
+    #113872,
+    #e43687,
+    #113872,
+    #e43687
+  );
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+form .btn:hover .btn-layer {
+  left: 0;
+}
+form .btn input[type="submit"] {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hr-styling {
+  border-top: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(53, 5, 85, 0.068),
+    rgba(53, 5, 85, 0.75),
+    rgba(53, 5, 85, 0.068)
+  );
+  position: relative;
+  top: 14px;
+}
+.input-field input:focus {
+  border-bottom: 1px solid #113872 !important;
+  box-shadow: 0 1px 0 0 #113872 !important;
+}
+#toggle-password {
+  float: right;
+  background: transparent;
+  border: none;
+  position: relative;
+  z-index: 99;
+  height: 23px;
+  width: auto;
+  top: -45px;
+  left: -3px;
+}
+#show-pass {
+  height: 100%;
+}

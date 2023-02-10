@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+#Submit {
+  padding: 0.5rem;
+  width: 30%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  font-family: "Playfair Display", serif;
+}
+#Submit:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+
+.btn {
+  padding: 0.1rem;
+  width: 30%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  font-family: "Playfair Display", serif;
+}
+#upload-btn {
+  font-family: "Playfair Display", serif;
+}
+
+.btn:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+.background {
+  display: grid;
+  background-image: url("https://i.ibb.co/fd1ZZ8p/background.jpg");
+  height: 91vh;
+  width: 100vw;
+  place-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heading-upload {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid rgb(50, 83, 189) !important;
+  box-shadow: 0 1px 0 0 rgb(50, 83, 189);
+}

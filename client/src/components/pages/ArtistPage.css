@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+#background-container {
+  position: absolute;
+  background-image: url(https://i.ibb.co/fd1ZZ8p/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+  height: 91vh;
+  width: 100vw;
+}
+.profile-container {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  background-color: #fff;
+  width: 73vw;
+  height: auto;
+  top: 5.5%;
+  border-radius: 10px;
+}
+.info-container {
+  border: 0px;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, rgb(4, 11, 117), rgb(206, 23, 151));
+  border-image-slice: 1;
+  margin: 15px 0px;
+  padding: 1em;
+  background-color: #fff;
+  height: 289px;
+}
+
+.profile-pic {
+  position: absolute;
+  max-width: 250px;
+  height: 250px;
+  left: 46px;
+}
+.profile-pic img {
+  border-radius: 50%;
+  width: auto;
+  max-height: 250px;
+}
+.details {
+  width: 55%;
+  float: right;
+}
+.name-text {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+.analytics-text {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-size: 1.9em;
+  margin-top: 1.2em;
+}
+.profile-buttons {
+  position: relative;
+  top: 2em;
+  left: -2em;
+}
+#Add {
+  margin: 12px;
+  padding: 0.5rem;
+  width: 46%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  height: 46px;
+  font-family: "Cinzel", serif;
+  font-size: 1.36em;
+  font-weight: 700;
+}
+
+#Add:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+
+#Edit {
+  padding: 0.5rem;
+  width: 46%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  height: 46px;
+  font-family: "Cinzel", serif;
+  font-size: 1.36em;
+  font-weight: 700;
+}
+
+#Edit:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+.masonry img {
+  width: 100%;
+}
+.switch {
+  margin: 0;
+  padding: 0;
+}
+.masonry {
+  /*column-count: 4;*/
+  column-count: 3;
+  column-gap: 16px;
+  width: 97%;
+  position: relative;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+  position: relative;
+}
+.overlay {
+  position: relative;
+  z-index: 10;
+  background-color: #1d1d1dcc;
+  margin-bottom: 0px !important;
+  top: -9.8vh;
+  color: white;
+  display: none !important;
+  padding: 0;
+  width: 100%;
+}
+.switch:hover .overlay {
+  display: inline-block !important;
+}
+@media (max-width: 1199px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .masonry {
+    column-count: 1;
+  }
+}
+.artist-details {
+  font-size: 2vh;
+}
+.post-container {
+  display: grid;
+  place-items: center;
+}

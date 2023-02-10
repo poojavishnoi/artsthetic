@@ -1,0 +1,44 @@
+#frame-container{
+  position: relative;
+  float: left;
+  height: 60vh;
+  padding-top: 1%;
+  background-color: white;
+  width: 142%;
+  left: -23.5vh;
+  border-radius: 15px;
+
+}
+
+
+.frame-image-container {
+  margin-top: 0%;
+  position: absolute;
+  z-index: 1;
+  height:94vh;
+  left: 4vw;
+  top: -3vh;
+  padding: 13%;
+  background: transparent;
+  width: 30vw;
+}
+
+.frame-image-container .artwork {
+  position: absolute;
+  z-index: 2;
+  height: 23.5vh; 
+  top: 23%;
+  left: 36.5%;
+  width: 10vw;
+
+}
+
+.frame-image-container img {
+  height: 50%;
+  width: auto;
+}
+.frame-image-container .artwork img {
+  height: 100%;
+  width: 90%;
+}
+

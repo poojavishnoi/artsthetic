@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+.user {
+  border-radius: 10px;
+  text-align: center;
+  background-color: transparent;
+  margin: 20px 100px;
+  font-family: "Cinzel", "serif";
+  font-size: 10px;
+}
+
+#background {
+  position: absolute;
+  background-image: url(https://i.ibb.co/fd1ZZ8p/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.user img {
+  width: 350px;
+  border-radius: 15px;
+  /* margin-top: 1rem;
+  margin-bottom: 10px;
+  margin-left: 1rem; */
+
+  padding: 0.5rem;
+}
+/*
+.heading {
+  font-size: 1.5rem;
+  margin: 2rem;
+}*/
+
+.user li {
+  display: inline-block;
+  padding: 1em;
+  width: 30%;
+  cursor: pointer;
+}
+
+#liked {
+  text-align: center;
+  color: white;
+}

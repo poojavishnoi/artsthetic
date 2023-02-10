@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+.bck {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.ibb.co/fd1ZZ8p/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.Profile {
+  margin: 30px auto;
+  color: black;
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: white;
+  margin-bottom: 100px;
+}
+/* font-family: "Playfair Display", serif; */
+.Profile-header {
+  font-family: "Cinzel", serif;
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3.7vh;
+  height: 50px;
+  border: 0px;
+  border-bottom: 3.5px solid;
+  border-image: linear-gradient(to right, rgb(4, 11, 117), rgb(206, 23, 151));
+  border-image-slice: 1;
+}
+
+.Profile-pic {
+  position: relative;
+  max-width: 181px;
+  height: 181px;
+  left: 28px;
+  top: -10px;
+}
+.Profile-pic img {
+  border-radius: 50%;
+  height: 100%;
+}
+.detail-title {
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+.Profile-U {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  height: 10vh;
+  width: 46vw;
+  text-align: center;
+}
+.CPFP {
+  padding: 0.1rem;
+  width: 30%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+
+.CPFP:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+.pain {
+  position: relative;
+  left: 107%;
+  top: -70%;
+  mix-blend-mode: color-burn;
+}
+
+.Profile-list {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 600px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0px;
+  border-bottom: 3.5px solid;
+  border-image: linear-gradient(to right, rgb(4, 11, 117), rgb(206, 23, 151));
+  border-image-slice: 1;
+}
+
+.Profile-details {
+  width: 250px;
+  margin-left: 40px;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+
+.Profile-name {
+  display: flex;
+  width: max-content;
+  position: relative;
+  left: 2vw;
+}
+.Profile-name-text {
+  margin-right: 2rem;
+}
+#Profile-name-first {
+  margin-top: 22px;
+  width: 20% !important;
+  padding-left: 1rem !important;
+  border-bottom: none;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+#Profile-name-first::placeholder {
+  color: black;
+
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+#Profile-name-last {
+  margin-top: 22px;
+  width: 20% !important;
+  padding-left: 1rem !important;
+  border-bottom: none;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+#Profile-name-last::placeholder {
+  color: black;
+
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+
+.Profile-Email {
+  width: 200%;
+  display: flex;
+  position: relative;
+  left: 2.5vw;
+}
+.Profile-Email-text {
+  margin-right: -2px;
+  width: 38%;
+}
+#Profile-Email-dis {
+  margin-top: 28px;
+  padding-left: 0rem !important;
+  border-bottom: none;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+#Profile-Email-dis::placeholder {
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+
+.Profile-Buttons {
+  display: flex;
+  padding: 20px 9% 20px 9%;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0px;
+  border-bottom: 3.5px solid;
+  border-image: linear-gradient(to left, rgb(4, 11, 117), rgb(206, 23, 151));
+  border-image-slice: 1;
+}
+
+.Profile-Edit {
+  padding-left: 6%;
+  display: flex;
+}
+#Bdit {
+  padding: 0.5rem;
+  width: 100%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  height: 42px;
+  font-family: "Cinzel", serif;
+  font-size: 1.06em;
+  font-weight: 500;
+}
+
+#Bdit:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+
+#Bdit:active {
+  transform: translateY(1.2px);
+}
+
+.Profile-Delete {
+  display: flex;
+  /* padding-right: 6%; */
+}
+#Belete {
+  padding: 0.5rem;
+  width: 50%;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  height: 42px;
+  font-family: "Cinzel", serif;
+  font-size: 1.06em;
+  font-weight: 500;
+  margin-left: 240px;
+}
+
+#Belete:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+
+#Belete:active {
+  transform: translateY(1.2px);
+}
+
+.No-Orders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Summary {
+  margin-left: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 5vh;
+}
+
+.Address1 {
+  display: flex;
+  font-size: larger;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+.Address-text1 {
+  margin-right: 72px;
+}
+.Address-dis {
+}
+
+.Phone1 {
+  display: flex;
+  width: 75%;
+  font-size: larger;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+.Phone-text1 {
+  margin-right: 72px;
+}
+.Phone-dis {
+}
+
+.Items {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+  font-size: larger;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+  flex-direction: column;
+}
+.Items-text {
+  margin-right: 72px;
+}
+.Items-dis {
+}
+
+.Status {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+  font-size: larger;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+  color: #e43687;
+}
+.Status-text1 {
+  margin-right: 72px;
+}
+.Status-dis {
+}
+.cart-item-preview {
+  position: relative;
+}
+.cart-items-preview-name {
+  position: relative;
+  /* float: right; */
+  /* top: 64px; */
+  left: 8vw;
+}
+.cart-items-preview-price {
+  position: relative;
+  /* float: right; */
+  /* top: 64px; */
+  left: 12vw;
+}

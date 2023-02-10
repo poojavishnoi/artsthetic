@@ -1,0 +1,200 @@
+.bc {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.ibb.co/fd1ZZ8p/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.Use {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Name {
+  margin-right: 65px;
+}
+
+.Emai {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.mail {
+  margin-right: 72px;
+}
+
+.Address {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Address-text {
+  margin-right: 75px;
+}
+.Address-input {
+  border-radius: 5px !important;
+  width: 40% !important;
+  transition: width 0.4s ease-in-out !important;
+  padding-left: 1rem !important;
+}
+.Address-input:focus {
+  width: 120% !important;
+}
+
+.Muni {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Muni-text {
+  margin-right: 100px;
+}
+.Muni-input {
+  border-radius: 5px !important;
+  width: 40% !important;
+  transition: width 0.4s ease-in-out !important;
+  padding-left: 1rem !important;
+}
+.Muni-input:focus {
+  width: 100% !important;
+}
+
+.Postal {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Postal-text {
+  margin-right: 45px;
+}
+.Postal-input {
+  border-radius: 5px !important;
+  width: 40% !important;
+  transition: width 0.4s ease-in-out !important;
+  padding-left: 1rem !important;
+}
+.Postal-input:focus {
+  width: 70% !important;
+}
+
+.Phone {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Phone-text {
+  margin-right: 15px;
+}
+.Phone-input {
+  border-radius: 5px !important;
+  width: 40% !important;
+  transition: width 0.4s ease-in-out !important;
+  padding-left: 1rem !important;
+}
+.Phone-input:focus {
+  width: 70% !important;
+}
+
+.Total-Price {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Total-Price-text {
+  margin-right: 100px;
+}
+
+.Charges {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+}
+.Charges-text {
+  margin-right: 42px;
+}
+
+.Final-Cost {
+  display: flex;
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+.Final-Cost-text {
+  margin-right: 15px;
+}
+
+.cart-items-total-price-name {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 4%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.buy-now {
+  top: -20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+
+.CODBOX {
+  display: flex;
+}
+.OR {
+  padding-left: 30px !important;
+  padding-right: 30px;
+  margin-top: 1%;
+}
+.COD {
+  margin-top: 3%;
+  border: none;
+  border-radius: 5px;
+  background-color: coral;
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.COD:hover {
+  background-color: mediumslateblue;
+}
+
+.UF {
+  padding-left: 3px !important;
+  padding-right: 30px;
+  margin-top: -3%;
+}
+input:focus {
+  border-bottom: 1px solid #113872 !important;
+  box-shadow: 0 1px 0 0 #113872 !important;
+}

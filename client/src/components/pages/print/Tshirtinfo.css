@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+.tshirt-info-container {
+  display: block;
+  /*padding: 4%;*/
+  background-color: transparent;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 15%;
+  float: right;
+  width: 64%;
+}
+
+.frame-info-container {
+  display: block;
+  /*padding: 4%;*/
+  background-color: transparent;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  top: 0;
+  left: 15%;
+  float: right;
+  width: 64%;
+}
+
+.frame-info-container select {
+  display: inline;
+  width: 35%;
+  font-size: 110%;
+  margin: 1%;
+}
+
+.frame-info-container label {
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+.frame-info-container small {
+  padding-left: 1%;
+  font-size: 110%;
+}
+
+.frame-info-container input[type="button"] {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tshirt-info-container select {
+  display: inline;
+  width: 35%;
+  font-size: 110%;
+  margin: 1%;
+}
+
+.tshirt-info-container label {
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+.tshirt-info-container h3 {
+  padding-left: 1%;
+}
+.tshirt-info-container small {
+  padding-left: 1%;
+  font-size: 110%;
+}
+
+.tshirt-info-container input[type="button"] {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.addcrt {
+  padding: 0.5rem;
+  width: 8vw;
+  margin: 0.5rem 2rem;
+  background: -webkit-linear-gradient(left, #113872, #e43687, #113872);
+  background-size: 200%;
+  background-position: left;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  transition: all 0.4s ease;
+  font-family: "Cinzel", serif;
+  font-size: 2vh;
+}
+.addcrt:hover {
+  background-position: right;
+  transition: all 0.4s ease;
+}
+.art-titlestyle {
+  color: black;
+  transition: all 0.4s ease;
+  font-family: "Playfair Display", serif;
+  font-size: 7vh;
+  margin-top: 25px;
+}
